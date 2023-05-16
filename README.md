@@ -1,1 +1,1 @@
-# Web-Scraping-Placas-de-Video
+# DataScience com Placas de Vídeo
