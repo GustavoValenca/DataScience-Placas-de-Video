@@ -37,7 +37,7 @@ for link in links_kabum:
         product_path = (product.find('a'))['href']
         product_link = str(f"https://www.kabum.com.br{product_path}")
 
-        # Teste de link específico
+        # Teste de link de placa específico
         # product_link = "https://www.kabum.com.br/produto/383616/placa-de-video-pny-nvidia-geforce-rtx-3060-12-gb-gddr6-dlss-ray-tracing-vcg306012dfbpb1"
 
         product_req = requests.get(product_link, headers=headers)
